@@ -1,0 +1,75 @@
+.game-wrap{
+  text-align: center;
+}
+
+.droptoken {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: #008899;
+    margin: 0 auto;
+}
+
+.droptoken-column{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    
+}
+
+.droptoken-slot{
+    margin: 2px;
+    border-radius: 50%;
+    background-color: #000000;
+    flex: 1 1 auto;
+    cursor: pointer;
+}
+
+.droptoken-slot:hover{
+    background-color: #1b262c;
+}
+
+.droptoken-player1,
+.droptoken-player2{
+    margin: 2px;
+    background-color: #ed6663;
+    flex: 1 1 auto;
+}
+
+.droptoken-player1:hover,
+.droptoken-player2:hover{
+    background-color: #1b262c;
+}
+
+.droptoken-player2{
+    background-color: #0f4c81;
+}
+
+.start-game{
+    align-self: center;
+    justify-self: center;
+    padding:8px;
+    border-radius: 2px;
+    background-color: #ed6663;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-game:hover{
+    background-color: #ffa372;
+}
+
+.droptoken-winner-statement{
+    padding:8px;
+    border-radius: 2px;
+    background-color: #ed6663;
+    align-self: center;
+    justify-self: center;
+}
